@@ -1,0 +1,21 @@
+@media only screen and (max-width: 500px) {
+    .container {
+        padding: 40px 20px;
+    }
+
+    .weatherDetails {
+        flex-direction: column;
+    }
+
+    .col {
+        margin: 10% 0;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+    
+    .weather h2 {
+        font-size: 25px;
+    }
+}
