@@ -7,19 +7,20 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(to bottom right, #D9ECC7, #85f5ff, #D9ECC7);
+    background: linear-gradient(to bottom right, #005B41, #232D3F, #005B41);
 }
 
 .container {
     width: 90%;
     max-width: 500px;
-    background-image: linear-gradient(to bottom right, #00eaff, #d7ffd5);
+    background-image: linear-gradient(to bottom right, #232D3F, #005b4141, #232D3F);
     color: #FFFFFF;
     margin: 100px auto;
     border-radius: 20px;
     padding: 60px 40px;
     text-align: center;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffffff33;
 }
 
 .searchBar {
