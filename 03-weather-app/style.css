@@ -7,27 +7,33 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(to bottom right, #005B41, #232D3F, #005B41);
+    /* CREDITS: Photo by Codioful (Formerly Gradienta) on Unsplash */
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
     width: 90%;
     max-width: 500px;
-    background-image: linear-gradient(to bottom right, #232D3F, #005b4141, #232D3F);
-    color: #FFFFFF;
+    background-color: #3e3e3e37;
+    color: #ffffff;
     margin: 100px auto;
     border-radius: 20px;
     padding: 60px 40px;
     text-align: center;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.3);
     border: 1px solid #ffffff33;
+    backdrop-filter: blur(5px);
 }
 
 .searchBar {
     border-radius: 30px;
     display: flex;
     align-items: center;
-    background: white;
+    background: transparent;
+    border: 1px solid #ffffff3e;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .search input {
