@@ -1,0 +1,1 @@
+![Project Thumbnail](./assets/project-thumbnail.png)
