@@ -31,7 +31,7 @@ body {
     border-radius: 30px;
     display: flex;
     align-items: center;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.185);
     border: 1px solid #ffffff3e;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -41,7 +41,7 @@ body {
     border: none;
     outline: none;
     background: transparent;
-    color: #555;
+    color: #ffffff;
     padding: 10px 30px;
     height: 60px;
     border-radius: 30px;
