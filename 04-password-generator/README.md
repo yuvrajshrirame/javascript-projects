@@ -13,7 +13,7 @@ Welcome to the Password Generator project! This simple yet powerful tool was cre
 
 ## UI
 
-![UI](./dist/assets/ui.png)
+![UI](https://github.com/yuvrajshrirame/javascript-projects/blob/main/04-password-generator/dist/assets/ui.png)
 
 ## Live Demo
 
