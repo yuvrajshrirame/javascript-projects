@@ -11,10 +11,6 @@ Welcome to the Password Generator project! This simple yet powerful tool was cre
 - **Copy to Clipboard**: Easily copy generated passwords to your clipboard for quick use.
 - **Responsive Design**: The user interface adapts gracefully to different screen sizes, making it accessible on desktops, tablets, and smartphones.
 
-## UI
-
-![UI](https://github.com/yuvrajshrirame/javascript-projects/blob/main/04-password-generator/dist/assets/ui.png)
-
 ## Live Demo
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/04-password-generator/dist/index.html "Open Password Generator Project")
