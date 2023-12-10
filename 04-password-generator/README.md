@@ -11,9 +11,9 @@ Welcome to the Password Generator project! This simple yet powerful tool was cre
 - **Copy to Clipboard**: Easily copy generated passwords to your clipboard for quick use.
 - **Responsive Design**: The user interface adapts gracefully to different screen sizes, making it accessible on desktops, tablets, and smartphones.
 
-## Code
+## UI
 
-Feel free to explore the code. HTML provides the structure, TailwindCSS handles styling, and JavaScript powers the dynamic behavior.
+![UI](./dist/assets/ui.png)
 
 ## Live Demo
 
