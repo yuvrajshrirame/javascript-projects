@@ -13,3 +13,7 @@
 ### 04 | Password Generator
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/04-password-generator/dist/index.html "Open Password Generator Project")
+
+### 05 | Quiz App
+
+> __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/05-quiz-app/index.html "Open Quiz App Project")
