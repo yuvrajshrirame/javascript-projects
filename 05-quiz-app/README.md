@@ -16,6 +16,6 @@ The Quiz App is a simple web application created using HTML, CSS, and JavaScript
 
 ## Live Demo
 
-> __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/04-password-generator/dist/index.html "Open Password Generator Project")
+> __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/05-quiz-app/index.html "Open Quiz App Project")
 
 If you have any suggestions or feedback, please don't hesitate to reach out.
