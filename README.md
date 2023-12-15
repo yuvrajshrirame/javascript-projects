@@ -17,3 +17,7 @@
 ### 05 | Quiz App
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/05-quiz-app/index.html "Open Quiz App Project")
+
+### 05 | Image Carousel
+
+> __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/06-image-carousel/index.html "Open Image Carousel Project")
