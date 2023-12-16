@@ -10,10 +10,6 @@ This is a simple image carousel project created using HTML, CSS, and JS. The car
 
 4. **Minimalistic UI:** The user interface is kept simple to focus on the images. The design includes basic styling, making it easy to integrate into different projects.
 
-## UI / Output
-
-![Image Carousel Project UI/Output](./assets/output.png)
-
 ## Live Demo
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/06-image-carousel/index.html "Open Image Carousel Project")
