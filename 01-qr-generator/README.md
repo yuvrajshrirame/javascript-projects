@@ -10,10 +10,6 @@ This project is a simple and responsive QR code generator created using HTML, CS
 
 - **Responsive Design**: The project is designed to work seamlessly on various screen sizes and devices.
 
-## UI / Output
-
-![Weather App Project UI/Output](./assets/output.png)
-
 ## Live Demo
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/01-qr-generator/index.html "Open Password Generator Project")
