@@ -10,10 +10,6 @@ The Quiz App is a simple web application created using HTML, CSS, and JavaScript
 
 - **Results Checking**: The app provides instant feedback, allowing users to check their quiz results immediately after submitting their answers.
 
-## UI / Output
-
-![Quiz Demo UI/Output](./assets/output.png)
-
 ## Live Demo
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/05-quiz-app/index.html "Open Quiz App Project")
