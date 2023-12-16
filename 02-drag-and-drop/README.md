@@ -10,10 +10,6 @@ This project is a minimal and responsive implementation of a drag-and-drop mecha
 
 - **Responsive Design**: The project is designed to adapt to various screen sizes and devices.
 
-## UI / Output
-
-![Weather App Project UI/Output](./assets/output.png)
-
 ## Live Demo
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/02-drag-and-drop/index.html "Open Password Generator Project")
