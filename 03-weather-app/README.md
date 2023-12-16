@@ -10,10 +10,6 @@ This Weather App is a simple and responsive web application that provides users 
 
 - **Simple UI**: The user interface is kept minimalistic and user-friendly, allowing users to quickly access weather information without unnecessary complexity.
 
-## UI / Output
-
-![Weather App Project UI/Output](./assets/project-thumbnail.png)
-
 ## Live Demo
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/03-weather-app/index.html "Open Password Generator Project")
