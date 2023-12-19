@@ -21,3 +21,7 @@
 ### 06 | Image Carousel
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/06-image-carousel/index.html "Open Image Carousel Project")
+
+### 07 | FAQ Collapse Project
+
+> __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/07-faq-collapse/index.html "Open FAQ Collapse Project")
