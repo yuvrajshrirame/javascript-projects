@@ -2,7 +2,7 @@
 
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/01-qr-generator/index.html "Open QR Code Generator Project")
 
-![Dash Line](https://i.imgur.com/n4m72eY_d.webp?maxwidth=1520&fidelity=grand) 
+![Dash Line](./00-common-assets/dashline.png)
 
 ### 02 | Drag and Drop
 
