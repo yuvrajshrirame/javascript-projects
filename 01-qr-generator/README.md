@@ -6,9 +6,9 @@ This project is a simple and responsive QR code generator created using HTML, CS
 
 ## Features
 
-- **Simple Interface**: The user-friendly design makes it easy for anyone to generate QR codes.
+* [x] **Simple Interface**: The user-friendly design makes it easy for anyone to generate QR codes.
 
-- **Responsive Design**: The project is designed to work seamlessly on various screen sizes and devices.
+* [x] **Responsive Design**: The project is designed to work seamlessly on various screen sizes and devices.
 
 ## Live Demo
 
