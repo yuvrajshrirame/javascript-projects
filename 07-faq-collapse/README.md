@@ -6,9 +6,9 @@ FAQ Collapse is a simple project created to understand the principles of HTML, C
 
 ## Features
 
-1. **Responsive Design**: The FAQ Collapse project is designed to be responsive, ensuring a seamless user experience across various devices and screen sizes.
+* [x] **Responsive Design**: The FAQ Collapse project is designed to be responsive, ensuring a seamless user experience across various devices and screen sizes.
 
-2. **Collapsible Sections**: The main feature of this project is the ability to collapse and expand FAQ sections. Users can easily navigate through the list of questions and selectively view answers.
+* [x] **Collapsible Sections**: The main feature of this project is the ability to collapse and expand FAQ sections. Users can easily navigate through the list of questions and selectively view answers.
 
 ## Live Demo
 
