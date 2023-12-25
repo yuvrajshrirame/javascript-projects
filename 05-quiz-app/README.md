@@ -6,9 +6,9 @@ The Quiz App is a simple web application created using HTML, CSS, and JavaScript
 
 ## Features
 
-- **Selecting Correct Option**: Users can choose their answers by selecting the correct options provided for each quiz question.
+* [x] **Selecting Correct Option**: Users can choose their answers by selecting the correct options provided for each quiz question.
 
-- **Results Checking**: The app provides instant feedback, allowing users to check their quiz results immediately after submitting their answers.
+* [x] **Results Checking**: The app provides instant feedback, allowing users to check their quiz results immediately after submitting their answers.
 
 ## Live Demo
 
