@@ -6,9 +6,9 @@ This is a simple image carousel project created using HTML, CSS, and JS. The car
 
 ## Features
 
-1. **Automatic Sliding:** The carousel automatically transitions between images, providing a dynamic display without user interaction.
+* [x] **Automatic Sliding:** The carousel automatically transitions between images, providing a dynamic display without user interaction.
 
-4. **Minimalistic UI:** The user interface is kept simple to focus on the images. The design includes basic styling, making it easy to integrate into different projects.
+* [x] **Minimalistic UI:** The user interface is kept simple to focus on the images. The design includes basic styling, making it easy to integrate into different projects.
 
 ## Live Demo
 
