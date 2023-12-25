@@ -6,9 +6,9 @@ This project is a minimal and responsive implementation of a drag-and-drop mecha
 
 ## Features
 
-- **Drag and Drop**: Easily move elements within the designated drop area.
+* [x] **Drag and Drop**: Easily move elements within the designated drop area.
 
-- **Responsive Design**: The project is designed to adapt to various screen sizes and devices.
+* [x] **Responsive Design**: The project is designed to adapt to various screen sizes and devices.
 
 ## Live Demo
 
