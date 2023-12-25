@@ -6,10 +6,10 @@ Welcome to the Password Generator project! This simple yet powerful tool was cre
 
 ## Features
 
-- **Random Passwords**: Generate strong and unique passwords with just a click.
-- **Customization**: Tailor the password to your needs by adjusting length and including uppercase letters, numbers, and special characters.
-- **Copy to Clipboard**: Easily copy generated passwords to your clipboard for quick use.
-- **Responsive Design**: The user interface adapts gracefully to different screen sizes, making it accessible on desktops, tablets, and smartphones.
+* [x] **Random Passwords**: Generate strong and unique passwords with just a click.
+* [x] **Customization**: Tailor the password to your needs by adjusting length and including uppercase letters, numbers, and special characters.
+* [x] **Copy to Clipboard**: Easily copy generated passwords to your clipboard for quick use.
+* [x] **Responsive Design**: The user interface adapts gracefully to different screen sizes, making it accessible on desktops, tablets, and smartphones.
 
 ## Live Demo
 
