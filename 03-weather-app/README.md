@@ -6,9 +6,9 @@ This Weather App is a simple and responsive web application that provides users 
 
 ## Features
 
-- **Responsive Design**: The app is designed to adapt to various screen sizes, providing a seamless experience on both desktop and mobile devices.
+* [x] **Responsive Design**: The app is designed to adapt to various screen sizes, providing a seamless experience on both desktop and mobile devices.
 
-- **Simple UI**: The user interface is kept minimalistic and user-friendly, allowing users to quickly access weather information without unnecessary complexity.
+* [x] **Simple UI**: The user interface is kept minimalistic and user-friendly, allowing users to quickly access weather information without unnecessary complexity.
 
 ## Live Demo
 
