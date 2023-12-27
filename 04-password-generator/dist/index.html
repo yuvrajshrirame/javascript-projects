@@ -1,50 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="./assets/shield.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body class="h-screen flex justify-center bg-[#1c1c1c] items-center">
-    <div id="password-generator-container" class="w-[290px] px-2 flex flex-col items-center justify-center gap-4 py-4 text-white border rounded-xl md:w-[auto] md:px-12 ">
-        <img src="./assets/shield.png" alt="Shield-Image" class="w-[60px]">
-        <h2 class="text-3xl font-mono text-center">Password Generator</h2>
-        <div id="result-container" class="bg-white w-[90%] h-7 md:text-lg rounded px-2 text-gray-400 text-center">
-            <span id="result">Click on Generate Button</span>
+<body class="bg-[#1c1c1c] flex flex-col items-center text-white font-body">
+    
+    <!-- NAVIGATION BAR -->
+    <nav class="w-[100%] h-[60px] bg-[#181818] fixed bg-opacity-50 border-b-2 border-[#676767] invisible md:visible" style="backdrop-filter: blur(10px);">
+        <div class="flex flex-row justify-center items-center gap-3">
+            <a href="./index.html" class="bg-[#3c3c3c] px-7 py-2 mt-2 rounded-full hover:bg-white hover:text-[black] transition-all ease-in">Home</a>
+            <a href="./password-generator.html" class="bg-[#242424] px-7 py-2 mt-2 rounded-full hover:bg-white hover:text-[black] transition-all ease-in">Generate</a>
+            <a href="https://github.com/yuvrajshrirame/javascript-projects/tree/main/04-password-generator" target="_blank" class="bg-[#242424] px-7 py-2 mt-2 rounded-full hover:bg-white hover:text-[black] transition-all ease-in">Source Code</a>
         </div>
-        <span id="ShowError" class="w-full text-center md:w-96"></span>
+    </nav>
 
-        <div>
-            <button id="generate" class="bg-[#4f4f4f] rounded px-2  py-2 font-bold md:px-8 md:py-1">
-            Generate
-            </button>
-            <button id="clipboard" class="bg-[#4f4f4f] rounded px-2 py-2 font-bold md:px-4 md:py-1">Copy To Clipboard</button>
+    <!-- WORDMARK IMAGE -->
+    <img src="./assets/wordmark-logo.png" alt="wordmark-logo" class="h-[150px] md:h-[250px] mx-auto mt-20">
+
+    <!-- WEAK TO STRONG ARROW -->
+    <div class="flex items-center gap-10 mt-10 bg-[#181818] w-full py-10 justify-center">
+        <div class="flex items-center justify-center gap-4">
+            <h1 class="text-2xl">password123</h1>
+            <img src="./assets/cross-icon.png" alt="cross-icon" class="w-[40px]">
         </div>
-        <div class="font-mono w-full p-5 md:text-lg">
-            <div class="flex justify-between">
-            <label for="length">Password Length</label>
-            <input type="number" id="length" min="4" max="20" value="12" class="bg-transparent border rounded px-1 " />
-            </div>
-            <div class="flex justify-between">
-            <label for="uppercase">Include Uppercase Letters</label>
-            <input type="checkbox" id="uppercase" name="uppercase" checked />
-            </div>
-            <div class="flex justify-between">
-            <label for="lowercase">Include Lowercase Letters</label>
-            <input type="checkbox" id="lowercase" name="lowercase" checked />
-            </div>
-            <div class="flex justify-between">
-            <label for="numbers">Include Numbers</label>
-            <input type="checkbox" id="numbers" name="numbers" checked />
-            </div>
-            <div class="flex justify-between">
-            <label for="symbols">Include Symbols</label>
-            <input type="checkbox" id="symbols" name="symbols" checked />
-            </div>
+        <div class="flex items-center justify-center gap-4">
+            <h1 class="text-2xl">b?z*kRL%</h1>
+            <img src="./assets/tick-icon.png" alt="tick-icon" class="w-[40px]">
         </div>
     </div>
-    <script src="./script.js"></script>
+
+    <!-- DOWNWARD ARROW -->
+    <img src="./assets/arrow-down.png" alt="downward-arrow" class="w-[100px] mt-10">
+
+    <!-- GENERATE | BUTTON TO THE NEXT PAGE -->
+    <div class="mt-10">
+        <button class="bg-none border border-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#1c1c1c] px-16 py-3 rounded-full transition-all ease-in tracking-widest font-mono font-bold"><a href="./password-generator.html">GENERATE</a></button>
+    </div>
+
+    <!-- DESCRIPTION -->
+    <div class="w-[80%] md:w-[60%] bg-[#242424] px-10 py-[50px] rounded-3xl mt-10 border text-center hover:shadow-[#393939] hover:shadow-2xl transition-all ease-in hover:bg-[#232323]">
+        <p>This simple yet powerful tool was created using HTML, TailwindCSS, and JavaScript to provide a clean and user-friendly experience for generating secure passwords. The application boasts a modern and responsive design, ensuring seamless functionality across various devices, including smaller screens.</p>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="flex items-center justify-center md:flex-row flex-col gap-20 bg-[#121212] w-full mt-20 pb-10">
+        <!-- TECH STACK -->
+        <div class="mt-10">
+            <div class="text-center">
+                <h1 class="text-xl md:text-4xl bg-[#232323] rounded-xl py-1">CRAFTED USING</h1>
+            </div>
+            <div class="flex items-center justify-center gap-5 mt-10">
+                <div class="w-[50px] md:w-[80px] ">
+                    <img src="./assets/html-logo.png" alt="html-logo">
+                </div>
+                <div class="w-[60px] md:w-[100px] ">
+                    <img src="./assets/tailwindcss-logo.png" alt="tailwindcss-logo">
+                </div>
+                <div class="w-[50px] md:w-[80px] ">
+                    <img src="./assets/javascript-logo.png" alt="javascript-logo">
+                </div>
+            </div>
+        </div>
+
+        <!-- SOURCE CODE REDIRECTION LINK -->
+        <div class="mt-10">
+            <button><a href="https://github.com/yuvrajshrirame/javascript-projects/tree/main/04-password-generator" target="_blank" class="font-mono bg-none border border-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#1c1c1c] px-8 md:px-16 py-3 rounded-full transition-all ease-in tracking-widest">SOURCE CODE</a></button>
+        </div>
+    </div>
 </body>
 </html>
