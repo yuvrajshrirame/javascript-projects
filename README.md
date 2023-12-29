@@ -39,3 +39,9 @@
 > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/07-faq-collapse/index.html "Open FAQ Collapse Project")
 
 ---
+
+### 08 | Content Placeholder Project
+
+> __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/javascript-projects/08-content-placeholder/index.html "Open Content Placeholder Project")
+
+---
