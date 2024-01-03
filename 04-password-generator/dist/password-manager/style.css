@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    color: #1c1c1c;
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.navBar {
+    padding-top: 40px;
+}
+
+.navBar a {
+    background-color: #454545;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+.navBar a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    transition: all ease-in-out 150ms;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: #FFFFFF;
+}
+
+table, td, tr{
+    border: 2px solid #FFFFFF;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+table {
+    overflow-x: auto;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container p {
+    width: 55%;
+    text-align: center;
+}
+
+.container h2 {
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    padding: 1px 15px;
+}
+
+.container h1 {
+    font-size: 80px;
+}
+
+.highlightText {
+    background-color: #FFFFFF;
+    color: #1c1c1c;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    margin: 23px 0;
+}
+
+.btn{
+    padding: 8px 17px;
+    background: #1c1c1c;
+    color: #FFFFFF;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #1c1c1c;
+    transition: all ease-in 150ms;
+}
+
+.btnsm{ 
+    padding: 8px 17px;
+    background: #1c1c1c;
+    color: #FFFFFF;
+    font-weight: 900;
+    border: 2px solid #808080;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+.btnsm:hover {
+    background-color: #FFFFFF;
+    color: #1c1c1c;
+    transition: all ease-in 150ms;
+}
+
+.container input {
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 5px 5px #757575;
+}
+
+.container th {
+    padding: 20px;
+}
+
+.container td {
+    padding: 20px;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+}
