@@ -7,18 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="./assets/shield.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
-<body class="bg-[#1c1c1c] flex flex-col items-center text-white font-body">
+<body class="bg-[#1c1c1c] flex flex-col items-center text-white font-poppins font-normal">
     
     <!-- NAVIGATION BAR -->
     <nav class="w-[100%] h-[60px] bg-[#181818] fixed bg-opacity-50 border-b-2 border-[#676767] invisible md:visible" style="backdrop-filter: blur(10px);">
         <div class="flex flex-row justify-center items-center gap-3">
             <a href="./index.html" class="bg-[#3c3c3c] px-7 py-2 mt-2 rounded-full hover:bg-white hover:text-[black] transition-all ease-in">Home</a>
             <a href="./password-generator.html" class="bg-[#242424] px-7 py-2 mt-2 rounded-full hover:bg-white hover:text-[black] transition-all ease-in">Generate</a>
-            <a href="https://github.com/yuvrajshrirame/javascript-projects/tree/main/04-password-generator" target="_blank" class="bg-[#242424] px-7 py-2 mt-2 rounded-full hover:bg-white hover:text-[black] transition-all ease-in">Source Code</a>
+            <a href="./password-manager/index.html" class="bg-[#242424] px-7 py-2 mt-2 rounded-full hover:bg-white hover:text-[black] transition-all ease-in">Manage</a>
         </div>
     </nav>
 
@@ -26,7 +24,7 @@
     <img src="./assets/wordmark-logo.png" alt="wordmark-logo" class="h-[150px] md:h-[250px] mx-auto mt-20">
 
     <!-- WEAK TO STRONG ARROW -->
-    <div class="flex items-center gap-6 md:gap-10 mt-10 bg-[#181818] w-full py-10 justify-center">
+    <div class="flex items-center gap-6 md:gap-10 mt-10 bg-[#121212] w-full py-10 justify-center">
         <div class="flex items-center justify-center gap-2 md:gap-4">
             <h1 class="text-2xl">password123</h1>
             <img src="./assets/cross-icon.png" alt="cross-icon" class="w-[15px] md:w-[40px]">
@@ -42,7 +40,7 @@
 
     <!-- GENERATE | BUTTON TO THE NEXT PAGE -->
     <div class="mt-10">
-        <button class="bg-none border border-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#1c1c1c] px-16 py-3 rounded-full transition-all ease-in tracking-widest font-mono font-bold"><a href="./password-generator.html">GENERATE</a></button>
+        <button class="bg-none border border-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#1c1c1c] px-16 py-3 rounded-full transition-all ease-in"><a href="./password-generator.html">Generate Password Now</a></button>
     </div>
 
     <!-- DESCRIPTION -->
@@ -51,29 +49,44 @@
     </div>
 
     <!-- FOOTER -->
-
     <div class="flex items-center justify-center md:flex-row flex-col gap-20 bg-[#121212] w-full mt-20 pb-10">
         <!-- TECH STACK -->
         <div class="mt-10">
             <div class="text-center">
-                <h1 class="text-xl md:text-4xl bg-[#232323] rounded-xl py-1">CRAFTED USING</h1>
+                <h1 class="text-xl md:text-2xl bg-[#232323] rounded-xl py-1 px-3">CRAFTED USING</h1>
             </div>
-            <div class="flex items-center justify-center gap-5 mt-10">
-                <div class="w-[50px] md:w-[80px] ">
+            <div class="flex items-center justify-center gap-5 mt-5">
+                <div class="w-[20px] md:w-[30px] ">
                     <img src="./assets/html-logo.png" alt="html-logo">
                 </div>
-                <div class="w-[60px] md:w-[100px] ">
+                <div class="w-[20px] md:w-[40px] ">
                     <img src="./assets/tailwindcss-logo.png" alt="tailwindcss-logo">
                 </div>
-                <div class="w-[50px] md:w-[80px] ">
+                <div class="w-[20px] md:w-[30px] ">
                     <img src="./assets/javascript-logo.png" alt="javascript-logo">
                 </div>
             </div>
         </div>
 
-        <!-- SOURCE CODE REDIRECTION LINK -->
-        <div class="mt-10">
-            <button><a href="https://github.com/yuvrajshrirame/javascript-projects/tree/main/04-password-generator" target="_blank" class="font-mono bg-none border border-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#1c1c1c] px-8 md:px-16 py-3 rounded-full transition-all ease-in tracking-widest">SOURCE CODE</a></button>
+        <!-- LINKS -->
+        <div class="bg-[#606060] h-[120px] w-[0.5px] mt-[40px]"></div>
+        <div class="mt-10 flex flex-col text-[#5a5a5a]">
+            <a class="hover:text-[#777777]" href="https://github.com/yuvrajshrirame/javascript-projects/tree/main/04-password-generator">Open Source</a>
+            <a class="hover:text-[#777777]" href="https://github.com/yuvrajshrirame/javascript-projects/tree/main/04-password-generator">Privacy Policy</a>
+            <a class="hover:text-[#777777]" href="https://github.com/yuvrajshrirame/javascript-projects/tree/main/04-password-generator">Copyrights</a>
+        </div>
+        <div class="mt-10 flex flex-col text-[#5a5a5a]">
+            <a class="hover:text-[#777777]" href="">About Us</a>
+            <a class="hover:text-[#777777]" href="mailto:mail.yuvrajshrirame@gmail.com">Contact</a>
+            <a class="hover:text-[#777777]" href="https://github.com/yuvrajshrirame/javascript-projects/tree/main/04-password-generator">License</a>
+        </div>
+
+        
+        <div class="bg-[#606060] h-[120px] w-[0.5px] mt-[40px]"></div>
+        <div class="flex gap-3 mt-8">
+            <i class="fa-xl fa-brands fa-linkedin-in cursor-pointer" style="color: #5a5a5a;"></i>
+            <i class="fa-xl fa-solid fa-envelope cursor-pointer" style="color: #5a5a5a;"></i>
+            <i class="fa-xl fa-brands fa-github cursor-pointer" style="color: #5a5a5a;"></i>
         </div>
     </div>
 </body>
