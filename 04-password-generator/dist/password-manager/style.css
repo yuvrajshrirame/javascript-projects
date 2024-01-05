@@ -61,10 +61,6 @@ table, td, tr{
     padding: 5px 13px;
 }
 
-table {
-    overflow-x: auto;
-}
-
 .container {
     max-width: 80vw;
     margin: 23px auto;
@@ -158,4 +154,19 @@ img{
 
 #alert{
     display: none;
+}
+
+.table-container {
+    min-height: 80px;
+}
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 600px) {
+    .container h1 {
+        font-size: 50px;
+    }
+    .container p {
+        width: 80%;
+    }
 }
