@@ -21,8 +21,7 @@
         
         <!-- SAVING PASSWORDS -->
         <h2>Add a Password</h2>
-        <form action="/submit" method="post">
-
+        <form id="passwordForm">
             <!-- Text input for website -->
             <label for="website">Site Name:</label><br>
             <input type="text" id="website" name="website" required>
@@ -37,20 +36,26 @@
             <label for="password">Password:</label><br>
             <input type="password" id="password" name="password" required>
             <br>
+
             <!-- Submit button -->
             <button class="btn" type="submit">Submit</button>
         </form>
 
         <!-- SAVED PASSWORDS -->
         <h2>Your Passwords <span id="alert">(Copied!)</span></h2> 
-        <table class="table-container">
-            <tr>
-                <th>Website</th>
-                <th>Username</th>
-                <th>Password</th>
-                <th>Delete</th>
-            </tr> 
-        </table>
+        <div class="table-container">
+            <table class="password-table">
+                <thead>
+                    <tr>
+                        <th>Website</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="passwordTableBody"></tbody>
+            </table>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
