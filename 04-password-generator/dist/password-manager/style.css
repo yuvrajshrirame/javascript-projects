@@ -3,8 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 ::selection {
@@ -13,6 +12,8 @@
 }
 
 body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #1c1c1c;
     color: #FFFFFF;
     text-align: center;
@@ -28,37 +29,12 @@ body {
     text-decoration: none;
     border-radius: 40px;
     padding: 10px 20px;
+    transition: all ease-in-out 150ms;
 }
 
 .navBar a:hover {
     background-color: #FFFFFF;
     color: #000000;
-    text-decoration: none;
-    border-radius: 40px;
-    padding: 10px 20px;
-    transition: all ease-in-out 150ms;
-}
-
-ul {
-    display: flex;
-    margin: 0 23px;
-    align-items: center;
-}
-
-ul > li {
-    list-style: none;
-    margin: 0 13px;
-    cursor: pointer;
-}
-
-ul > li:hover{
-    color: #FFFFFF;
-}
-
-table, td, tr{
-    border: 2px solid #FFFFFF;
-    border-collapse: collapse;
-    padding: 5px 13px;
 }
 
 .container {
@@ -144,7 +120,15 @@ h1, h2, h3 {
     padding: 20px;
 }
 
-img{
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.password-table img{
     cursor: pointer;
     position: relative;
     bottom: 7px;
@@ -164,5 +148,9 @@ img{
     }
     .container p {
         width: 80%;
+    }
+    td {
+        display: table-cell;
+        border: 1px solid #FFFFFF;
     }
 }
